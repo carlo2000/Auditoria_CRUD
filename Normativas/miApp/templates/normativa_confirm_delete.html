@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Confirmar Borrado</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <h1 class="confirmation-message">¿Está seguro de que desea borrar la normativa "{{ object.tipo }}"?</h1>
+    <form method="post">
+        {% csrf_token %}
+        <button class="confirmar" type="submit">Confirmar</button>
+    </form>
+    <a class="a_cancelar" href="{% url 'normativa_list' %}">Cancelar</a>
+</body>
+</html>

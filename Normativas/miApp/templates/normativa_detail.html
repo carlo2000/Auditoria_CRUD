@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Detalles de la Normativa</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <h1>{{ object.tipo }}</h1>
+    <div class="content">
+        <p><strong>Detalle:</strong> {{ object.detalle }}</p>
+        <p><strong>Descripción:</strong> {{ object.descripcion }}</p>
+        <p><strong>Link:</strong> <a href="{{ object.link }}">{{ object.link }}</a></p>
+        <a class="a_cancelar" href="{% url 'normativa_list' %}">Volver a la lista</a>
+    </div>
+</body>
+</html>

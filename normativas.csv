@@ -1,0 +1,34 @@
+tipo,detalle,descripcion,link
+LEY,LEY Nº 31814 LEY QUE PROMUEVE EL USO DE LA INTELIGENCIA ARTIFICIAL EN FAVOR DEL DESARROLLO ECONÓMICO Y SOCIAL DEL PAÍS,IA,http://example.com/LEY31814
+DL,DL N° 604, que crea el Sistema Nacional de Informática.,SISTEMA NACIONA DE INFORMATICA,http://example.com/DL604
+DL,DL N° 1412 Decreto Legislativo que aprueba la Ley de Gobierno Digital.,Ley de Gobierno Digital,http://example.com/DL1412
+DS,DS N° 066-2011-PCM, que aprueba el Plan de Desarrollo de la Sociedad de la Información en el Perú – La Agenda Digital Peruana 2.0.,PLAN DE DESARROLLO DE LA SI,http://example.com/DS066-2011
+DS,DS N° 081-2013-PCM, que aprueba la Política Nacional de Gobierno Electrónico 2013 - 2017.,POLITICA NACIOANL DE GE,http://example.com/DS081-2013
+DS,DS N° 026-2016-PCM Aprueban medidas para el fortalecimiento de la infraestructura oficial de firma electrónica y la implementación progresiva de la firma digital en el Sector Público y Privado.,FIRMA ELECTRONICA,http://example.com/DS026-2016
+DS,DS N° 081-2017-PCM Aprueba la formulación del Plan de Transición al Protocolo IPV6 en las entidades de la Administración Pública,IPV 6,http://example.com/DS081-2017
+DS,DS N° 033-2018-PCM, que crea la Plataforma Digital Única del Estado Peruano y establecen disposiciones adicionales para el desarrollo del Gobierno Digital.,PLATAFORMA DIGITAL UNICA DEL ESTADO,http://example.com/DS033-2018
+DS,DS N° 118-2018-PCM, Declaran de interés nacional el desarrollo del Gobierno Digital, la innovación y la economía digital con enfoque territorial.,GOB-DIGITAL INNOVACION,http://example.com/DS118-2018
+DS,DS Nº 029-2021-PCM Aprueba el Reglamento de la Ley de Gobierno Digital,REGLAMENTO DE LEY DE GOB DIGITAL,http://example.com/DS029-2021
+DU,Decreto de Urgencia N° 006-2020 que crea el Sistema Nacional De Transformación Digital.,Crea Sistema de Transformación Digital,http://example.com/DU006-2020
+DU,Decreto de Urgencia N° 007-2020 que aprueba el Marco de Confianza Digital y dispone medidas para su fortalecimiento.,Marco de Confianza Digital,http://example.com/DU007-2020
+RM,RM N° 176-2015-PCM Aprobación del Plan de Gobierno Abierto.,PLAN DE GOBIERNO ABIERTO,http://example.com/RM176-2015
+RM,RM N° 004-2016-PCM Aprueban el uso obligatorio de la “NTP ISO/IEC 27001:2014 Tecnología de la Información. Técnicas de Seguridad. Sistemas de Gestión de Seguridad de la Información. Requisitos. 2a. Edición”, en todas las entidades integrantes del Sistema Nacional de Informática.,ISO 27001:2015,http://example.com/RM004-2016
+RM,RM Nº 041-2017-PCM Se aprueba el uso obligatorio de la "NTP-ISO/IEC 12207:2016- Ingeniería de Software y Sistemas, Procesos del ciclo de vida del software. 3° Edición", en todas las entidades integrantes del Sistema Nacional de Informática.,ISO 12207:2016,http://example.com/RM041-2017
+RM,RM N° 228-2017-MIDIS, Aprobación del Manual de Operaciones del Fondo de Cooperación para el Desarrollo Social – FONCODES.,MANUAL DE FONCODES,http://example.com/RM228-2017
+RM,RM N° 119-2018-PCM, que dispone la creación de un Comité de Gobierno Digital en cada entidad de la Administración Pública.,COMITÉ DE GOBIERNO DIGITAL,http://example.com/RM119-2018
+RM,RM N° 087-2019-PCM Aprueban disposiciones sobre la conformación y funciones del Comité de Gobierno Digital.,CONFORMA COMITÉ DE GOBIERNO DIGITAL,http://example.com/RM087-2019
+RM,RM N° 121-2021-MIDIS Aprobar la Directiva N° 009-2021-MIDIS denominada “Directiva de Procedimientos del Ciclo de Vida del Software del MIDIS",CICLO DE VIDAD,http://example.com/RM121-2021
+RM,RM N° 060-2022-MIDIS, Aprobación del Plan Estratégico Institucional- PEI 2021-2025.,PEI 2021-2025,http://example.com/RM060-2022
+RM,RM N° D000023-2024-MIDIS, Aprobación del Plan Operativo Institucional- POI 2022-2024,POI 2022-2024,http://example.com/RMD000023-2024
+RC,RC N° 146-2019-CG Implementación del Sistema de Control Interno en Entidades del Estado,Control Interno,http://example.com/RC146-2019
+RSGD,RSGD N° 004-2018-PCM/SEGDI, que aprueba los lineamientos para la gestión y planificación del Gobierno Digital en la Administración Pública.,LINEAMIENTO DE PLAN DE GOBIERNO DIGITAL,http://example.com/RSGD004-2018-PCM
+RSGD,RSGD N° 004-2018-PCM/SEGDI, Aprueban lineamientos del Líder de Gobierno Digital.,Lider de Gobierno Digital,http://example.com/RSGD004-2018-PCM-Lider
+RSGD,RSGD N° 005-2018-PCM/SEGDI, Aprueban lineamientos para la formulación del Plan de Gobierno Digital.,LINEAMIENTO DE PLAN DE GOBIERNO DIGITAL,http://example.com/RSGD005-2018-PCM
+RSGD,RSGD N° 003-2023-PCM/SGTD, Establece la implementación y mantenimiento del Sistema de Gestión de Seguridad de la Información en las entidades públicas.,Implementación y Mantenimiento del SGSI,http://example.com/RSGD003-2023-PCM
+RDE,RDE N° 030-2015-FONCODES-DE Procedimiento para el Uso de Activos y Servicios Informáticos y Seguridad de la Información.,Proc.Uso de Activos y Servicios Informáticos,http://example.com/RDE030-2015
+RDE,RDE N° 019-2020- FONCODES/DE Aprobar el Prodecimiento "Detección de anomalias e incidencias en los servicios de TI que afecten la seguridad informática.,Crea Equipo de Respuesta,http://example.com/RDE019-2020
+RDE,RDE Nº 000070-2020-FONCODES/DE Aprobar el Plan N° 27-2020-FONCODES/UTI “Plan de Contingencias de Tecnologías de la Información 2020-2021”,Plan de Contingencias de TI,http://example.com/RDE000070-2020
+RDE,RDE N° 131-2020-FONCODES/DE PROCEDIMIENTO N° 122 - 2020-FONCODES/UTI GESTIÓN DE SOLICITUDES DE ATENCIÓN A USUARIOS DE SERVICIOS DE TI,Solicitudes de Atención a Usuarios,http://example.com/RDE131-2020
+RDE,RDE N° 135-2021- FONCODES/DE Aprobar la Directiva N°31-2021-FONCODES/UTI “Disposiciones para la Gestión de la Seguridad de la Información en el FONCODES”,Disposiciones para la Seguridad de Información,http://example.com/RDE135-2021
+RDE,RDE N° 050-2023- FONCODES/DE Actualizar la RDE N° 112-2018-FONCODES/DE modificada por RDE Nº 099-2019-FONCODES/DE Oficial de Seguridad-O. de Datos Personales,Oficial de Seguridad-Protección de Datos Personales,http://example.com/RDE050-2023
+RDE,RDE N° 104-2023- FONCODES/DE Conformación del Equipo de Respuesta ante Incidentes de Seguridad Digital del FONCODES,Crea Equipo de Respuesta,http://example.com/RDE104-2023

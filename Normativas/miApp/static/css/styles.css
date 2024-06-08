@@ -1,0 +1,206 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #2c3e50 0%, #4ca1af 100%);
+    margin: 0;
+    padding: 20px;
+    color: #f0f0f0;
+}
+h1 {
+    color: #ffffff;
+    text-align: center;
+    background-color: rgba(44, 62, 80, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+li {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid #34495e;
+    padding: 10px;
+    border-radius: 5px;
+    flex: 1 0 calc(20% - 20px); /* Ajusta el tamaño al 25% del contenedor menos el gap */
+    box-sizing: border-box;
+}
+
+ a {
+    text-decoration: none;
+    color: #1abc9c;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+.button {
+    background-color: #1abc9c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #16a085;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+
+table, th, td {
+    border: 1px solid #34495e;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: rgba(44, 62, 80, 0.8);
+    color: #ffffff;
+    text-align: center;
+}
+
+td {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #f0f0f0;
+}
+
+tr:hover td {
+    background-color: rgba(68, 89, 110, 0.5);
+}
+
+/* Estilos para el formulario */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}
+
+
+.h1_form {
+    color: #ffffff;
+    text-align: center;
+    background-color: rgba(44, 62, 80, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+}
+form input[type="text"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button[type="submit"] {
+    background-color: #1abc9c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form button[type="submit"]:hover {
+    background-color: #16a085;
+}
+.a_eliminar{
+    color: rgb(121, 4, 4);
+}
+.a_eliminar:hover {
+    color: #cb1344; /* Cambiar el color al pasar el cursor sobre el enlace */
+}
+.a_editar{
+    color:#0b7c2f
+}
+.a_editar:hover {
+    color: #25ae45; /* Cambiar el color al pasar el cursor sobre el enlace */
+}
+
+.a_form {
+    color: #1abc9c; /* Color por defecto del enlace */
+    text-decoration: none; /* Eliminar subrayado por defecto */
+    transition: color 0.3s; /* Transición suave del color */
+}
+
+.a_form:hover {
+    color: #16a085; /* Cambiar el color al pasar el cursor sobre el enlace */
+}
+
+/* Estilos para el contenido */
+.content {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}
+
+.content p {
+    margin-bottom: 10px;
+}
+
+
+
+.a_cancelar{
+    color: rgb(116, 44, 44);
+    text-decoration: none; /* Eliminar subrayado por defecto */
+    transition: color 0.3s;
+}
+.a_cancelar:hover {
+    color: #973038; /* Cambiar el color al pasar el cursor sobre el enlace */
+}
+
+/* Estilos para el mensaje de confirmación */
+.confirmation-message {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilos para el botón de confirmación */
+.confirmar {
+    display: block;
+    margin: 0 auto;
+    width: 150px; /* Ancho definido */
+    background-color: #1abc9c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.confirmar:hover {
+    background-color: #16a085;
+}

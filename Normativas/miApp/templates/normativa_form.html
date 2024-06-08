@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulario de Normativa</title>
+    <title>{% if object %}Editar{% else %}Nueva{% endif %} Normativa</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <h1 class="h1_form">{% if object %}Editar{% else %}Nueva{% endif %} Normativa</h1>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Guardar</button>
+    </form>
+    <a class="a_cancelar" class="a_form" href="{% url 'normativa_list' %}">Cancelar</a>
+</body>
+</html>
