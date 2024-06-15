@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Menú Lateral</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/sidebar_styles.css' %}">
+    <script src="{% static 'js/sidebar_script.js' %}"></script>
+</head>
+<body>
+    <div id="sidebar">
+        <div class="sidebar-header">
+            <h3>Menú</h3>
+        </div>
+        <ul class="sidebar-menu">
+            <li>
+                <a href="#" class="sidebar-dropdown">Lista de Normativas  <span>&#9660;</span></a>
+                <div class="sidebar-submenu">
+                    
+                    <a href="{% url 'normativa_list_tabla' %}">Mostrar en tabla</a>
+                    <a href="{% url 'normativa_new' %}">Agregar Nueva Normativa</a>
+                    <!-- Agrega más elementos según tus necesidades -->
+                </div>
+                
+            </li>
+            
+            <li>
+                <a href="#" class="sidebar-dropdown">Control de Incidentes <span>&#9660;</span></a>
+                <div class="sidebar-submenu">
+                    <a href="{% url 'incidente_list' %}">Lista de Incidentes</a>
+                    <a href="{% url 'incidente_create' %}">Crear Incidente</a>
+                    <!-- Agrega más elementos según tus necesidades -->
+                </div>
+            </li>
+            <!-- Agrega más elementos de menú según tus necesidades -->
+        </ul>
+    </div>
+</body>
+</html>

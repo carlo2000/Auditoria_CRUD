@@ -1,0 +1,56 @@
+
+#sidebar {
+    width: 200px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    overflow-y: auto;
+    background-color: rgba(44, 62, 80, 0.9); /* Fondo oscuro con transparencia */
+    color: #f0f0f0; /* Color de texto claro */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Sombra suave */
+}
+body {
+    margin-left: 220px; /* Ajusta este valor según el ancho del menú lateral */
+}
+.sidebar-header {
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(76, 161, 175, 0.8); /* Fondo azul claro con transparencia */
+    color: #ffffff; /* Color de texto blanco */
+}
+
+.sidebar-menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar-menu li a {
+    display: block;
+    color: #f0f0f0; /* Color de texto claro */
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s; /* Transición suave de fondo */
+}
+
+.sidebar-menu li a:hover {
+    background-color: rgba(76, 161, 175, 0.6); /* Fondo azul claro con transparencia al pasar el cursor */
+}
+
+.sidebar-submenu {
+    display: none;
+    padding-left: 20px;
+    background-color: rgba(52, 73, 94, 0.8); /* Fondo gris oscuro con transparencia */
+}
+
+.sidebar-submenu a {
+    color: #ccc; /* Color de texto gris claro */
+    padding: 5px 0;
+    text-decoration: none;
+    transition: color 0.3s; /* Transición suave de color */
+}
+
+.sidebar-submenu a:hover {
+    color: #ffffff; /* Color de texto blanco al pasar el cursor */
+}

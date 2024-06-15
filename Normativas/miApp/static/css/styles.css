@@ -139,10 +139,10 @@ form button[type="submit"]:hover {
     color: #cb1344; /* Cambiar el color al pasar el cursor sobre el enlace */
 }
 .a_editar{
-    color:#0b7c2f
+    color:#78f39f
 }
 .a_editar:hover {
-    color: #25ae45; /* Cambiar el color al pasar el cursor sobre el enlace */
+    color: #00fc3b; /* Cambiar el color al pasar el cursor sobre el enlace */
 }
 
 .a_form {

@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Detalles de la Normativa</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+
+    {% include 'sidebar_menu.html' %}
+
+{% block content %}
+  <h1>Lista de Incidentes</h1>
+  <ul>
+    {% for incidente in object_list %}
+      <li>
+        {{ incidente.pk }}. {{ incidente.descripcion}}
+        <br>
+        <a class="a_editar" href="{% url 'incidente_update' incidente.pk %}">Editar</a>
+        <a  class="a_eliminar" href="{% url 'incidente_delete' incidente.pk %}">Eliminar</a>
+      </li>
+    {% empty %}
+      <li>No hay incidentes registrados.</li>
+    {% endfor %}
+  </ul>
+  <a href="{% url 'incidente_create' %}">Crear nuevo incidente</a>
+{% endblock %}
+</body>
+</html>

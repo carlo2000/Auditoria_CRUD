@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lista de Normativas</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <script src="{% static 'js/script.js' %}"></script>
+</head>
+<body>
+    {% include 'sidebar_menu.html' %}
+    <h1>Tabla de Normativas</h1>
+    <button class="button" id="mostrarTabla">Mostrar Tabla</button>
+    <button class="button" id="ocultarTabla">Ocultar Tabla</button>
+    <button class="button" type="button"> <a style="color: #fff;" href="{% url 'normativa_new' %}">Agregar nueva normativa</a></button>
+    <div id="tablaContainer" style="display: none;">
+        <table>
+            <thead >
+                <tr >
+                    <th>Id</th>
+                    <th>Tipo</th>
+                    <th>Detalle</th>
+                    <th>Descripción</th>
+                    <th>Link</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for normativa in object_list %}
+                <tr>
+                    <td>{{ normativa.pk }}</td>
+                    <td><a href="{% url 'normativa_detail' normativa.pk %}">{{ normativa.tipo }}</a></td>
+                    <td>{{ normativa.detalle }}</td>
+                    <td>{{ normativa.descripcion }}</td>
+                    <td ><a style="color: rgb(157, 157, 182);" href="{{ normativa.link }}">{{ normativa.link }}</a></td>
+                    <td>(<a class="a_editar" href="{% url 'normativa_edit' normativa.pk %}">editar</a> / <a class="a_eliminar" href="{% url 'normativa_delete' normativa.pk %}">borrar</a>)</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
