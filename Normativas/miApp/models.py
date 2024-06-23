@@ -9,6 +9,16 @@ class Normativa(models.Model):
 
     def __str__(self):
         return self.tipo
+    
+    
+class Comunicado(models.Model):
+    tipo = models.CharField(max_length=100)
+    detalle = models.CharField(max_length=200)
+    descripcion = models.TextField()
+    link = models.URLField()
+    def __str__(self):
+        return self.tipo
+
 class Incidente(models.Model):
     id = models.BigAutoField(primary_key=True)
     descripcion = models.TextField()

@@ -13,9 +13,13 @@
         </div>
         <ul class="sidebar-menu">
             <li>
+                <a href="{% url 'comunicado_list' %}">Comunicados</a>
+            </li>
+            <li>
                 <a href="#" class="sidebar-dropdown">Lista de Normativas  <span>&#9660;</span></a>
                 <div class="sidebar-submenu">
                     
+                    <a href="{% url 'normativa_list' %}">Lista de normativas</a>
                     <a href="{% url 'normativa_list_tabla' %}">Mostrar en tabla</a>
                     <a href="{% url 'normativa_new' %}">Agregar Nueva Normativa</a>
                     <!-- Agrega más elementos según tus necesidades -->

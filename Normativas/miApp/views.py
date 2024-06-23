@@ -3,10 +3,15 @@ from django.urls import reverse_lazy
 from django.views.generic import ListView, DetailView, CreateView, UpdateView, DeleteView
 from .models import Incidente
 from .models import Normativa
+from .models import Comunicado
 # Create your views here.
 class NormativaListView(ListView):
     model = Normativa
     template_name = 'normativa_list.html'
+
+class ComunicadoListView(ListView):
+    model = Comunicado
+    template_name = 'comunicado_list.html'
 
 class NormativaListViewTabla(ListView):
     model = Normativa
